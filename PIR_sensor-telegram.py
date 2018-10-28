@@ -2,7 +2,7 @@ import serial
 import telegram
 import time
 
-myID = '533544103'
+myID = ID
 bot = telegram.Bot(token=Token)
 ser = serial.Serial('/dev/ttyACM0',9600)
 
